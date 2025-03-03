@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url('https://source.unsplash.com/random/1600x900/?nature,abstract') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.9);
+    width: 80%;
+    max-width: 900px;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.content-box {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #1e3a8a;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #475569;
+    margin: 12px 0;
+}
+
+.email-input {
+    width: 100%;
+    padding: 14px;
+    margin-top: 12px;
+    border: 2px solid #1e3a8a;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.subscribe-btn {
+    width: 100%;
+    padding: 14px;
+    margin-top: 12px;
+    background: #1e3a8a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.subscribe-btn:hover {
+    background: #3b82f6;
+}
+
+.note {
+    font-size: 14px;
+    color: #64748b;
+    margin-top: 12px;
+}
+
+.image-box img {
+    max-width: 220px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-box {
+    background: url('https://www.w3schools.com/w3images/forestbridge.jpg') no-repeat center center/cover;
+    width: 220px;
+    height: 220px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 25px;
+    width: 100%;
+    background: #1e293b;
+    color: white;
+}
+
+.footer-links, .footer-info {
+    margin-bottom: 12px;
+}
+
+.footer-links p, .footer-info p {
+    margin: 5px 0;
+    color: #cbd5e1;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer-links p:hover, .footer-info p:hover {
+    color: #facc15;
+}
